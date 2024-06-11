@@ -1,0 +1,12 @@
+body {
+    background-color: limegreen;
+}
+
+
+@media (max-width: 480px){
+    body{
+        background-color: lightsalmon;
+      }
+}
+
+

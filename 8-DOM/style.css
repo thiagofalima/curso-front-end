@@ -1,0 +1,16 @@
+.titulo-estilo {
+    color: palevioletred;
+    font-family: cursive; 
+}
+
+.body-estilo {
+    background-color: palegoldenrod;
+}
+
+.h1-estilo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p-estilo {
+    color: cornflowerblue;
+}

@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 50px 50px;
+    gap: 0.2rem;
+    grid-auto-rows: 100px;
+    grid-auto-columns: 1fr;
+    background-color: blueviolet;
+    padding: 0.2rem;
+}
+
+.grid-item{
+    background-color: lavender;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+}
+
+#item1 {
+    grid-column: span 5;
+    grid-row: span 4;
+}

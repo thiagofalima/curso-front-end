@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        p {
+            color: blue;
+        }
+
+        .highlight {
+            font-weight: bold;
+        }
+        
+        #important {
+            color: red;
+        }
+
+        [type="text"] {
+            border: 2px solid;
+        }
+
+        div.example {
+            background-color: yellow;
+        }
+
+        ul > li {
+            color: green;
+            list-style-type: square;
+        }
+
+        h2 ~ p {
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+    <p>Seletor por elemento</p>
+    <p class="highlight">Seletor por classe</p>
+    <p id="important">Seletor por Id</p>
+    <input type="text" placeholder="Seletor pr Atributo">
+    <div class="example">Seletor por combinaçao</div>
+    <ul>
+        <li> Seletor Children: lista Item 1 
+            <ul>
+                <li>Item lista 1.1</li>
+                <li>Item  lista2.2</li>
+            </ul>
+        </li>
+        <li>Item lista 2</li>
+    </ul>
+
+    <h2>Seletor Irmao</h2>
+    <p> Este paragrafo e irmao do h2 acima</p>
+</body>
+</html>

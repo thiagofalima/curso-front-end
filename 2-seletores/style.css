@@ -1,0 +1,48 @@
+p {
+    color: blue;
+}
+
+.example {
+    font-weight: bold;
+    /* line-height: 100px; */
+}
+
+/* .container.list.items {
+    color: red;
+} */
+
+#header {
+    font-size: 28px;
+    color: red;
+}
+
+[type="texto"] {
+    border: 1px solid black;
+    /* border-top: 1px solid black;
+    border-bottom: 5px solid black;
+    border-left: 7px solid black;
+    border-right: 11px solid black; */
+}
+
+p.combinado {
+    background-color: yellow;
+}
+
+/* Seletor filho */
+
+ul > li {
+    font-style: italic;
+} 
+
+h5 + p {
+    color: aqua
+}
+
+h2 ~ p {
+    /* text-decoration: dotted black; */
+    background-color: turquoise;
+}
+
+nav ul li {
+    list-style-type: square;
+}

@@ -1,0 +1,19 @@
+.my-button {
+    background-color: palegreen;
+    color: palevioletred;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.em-style {
+    font-size: 20px;
+    background-color: blueviolet;
+    color: white;
+}
+
+

@@ -1,0 +1,22 @@
+body {
+    background-color: white;
+}
+h2 {
+    font-style: italic;
+}
+
+#maca {
+    color: red;
+}
+
+#banana {
+    color: yellow;
+}
+
+#laranja {
+    color: orange;
+}
+
+#abacate {
+    color: green;
+}
